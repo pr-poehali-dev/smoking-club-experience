@@ -2,7 +2,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
-import { Coffee, Game, Gamepad2, Clock, MapPin, Phone, Instagram } from "lucide-react";
+import { Coffee, Gamepad, Gamepad2, Clock, MapPin, Phone, Instagram } from "lucide-react";
 
 const Index = () => {
   return (
@@ -72,7 +72,7 @@ const Index = () => {
               </Card>
               <Card className="bg-[#1A1F2C] border-[#333]">
                 <CardContent className="p-6 flex flex-col items-center text-center">
-                  <Game className="h-12 w-12 text-[#9b87f5] mb-4" />
+                  <Gamepad className="h-12 w-12 text-[#9b87f5] mb-4" />
                   <h3 className="text-xl font-semibold mb-2">Настольные игры</h3>
                   <p className="text-gray-400">Большой выбор игр на любой вкус</p>
                 </CardContent>
